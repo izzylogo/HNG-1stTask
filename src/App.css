@@ -29,6 +29,14 @@
   top: 5%;
 }
 
+.big{
+  display: block;
+}
+
+.small {
+  display: none;
+}
+
 .links {
   display: flex;
   flex-direction: column;
@@ -79,4 +87,12 @@
     right: 0%;
     top: 5%;
   }
+
+  .big {
+    display: none;
+  }
+  .small{
+    display: block;
+  }
+
 }

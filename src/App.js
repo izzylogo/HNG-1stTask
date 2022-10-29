@@ -5,6 +5,7 @@ import slack from './slackZuri.png'
 import git from './Social-icon.png'
 import zuri from './Zuri.Internship_Logo.png'
 import I4G from './I4G.png'
+import smal_share from './smal_share.png'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <p className="twit_user" id='twitter'>Annette Black</p> 
           <p></p>
         </div>
-        <img src={share_btn} alt="" className="share_btn" />
+        <img src={share_btn} alt="" className="share_btn big" />
+        <img src={smal_share} alt="" className="share_btn small" />
         <div className="links">
           <a className='link' id='twitter' target='_blank' rel='noreferrer' href='https://twitter.com/IzzyLogo'>Twitter Link</a>
           <a className='link' id='btn_zuri' target='_blank' rel='noreferrer' href='https://training.zuri.team/'>Zuri Team</a>
